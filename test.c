@@ -3,8 +3,8 @@
 #include <stdlib.h>
 int main(){
 
-	printf("Your score is %d", 100);
-
+	printf("Your score is %d \n", 100);
+    printf("My score is %f \n", 150.50);
 
 
 
