@@ -4,7 +4,7 @@
 int main(){
 	int a,b,c;
 	char d,e,f;
-	long alpahbet="abcdefghijklmnopqrstuvwxyz";
+	char* alpahbet="abcdefghijklmnopqrstuvwxyz";
 	d="test 1";
 	e="test 2";
 	f="test 3";
