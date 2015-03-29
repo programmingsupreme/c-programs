@@ -3,9 +3,9 @@
 #include <stdlib.h>
 int main(){
 	int a,b,c;
-	char* d,e,f;
+	char* e,f;
+	char d[]="test 1";
 	char alpahbet[]="abcdefghijklmnopqrstuvwxyz";
-	d="test 1";
 	e="test 2";
 	f="test 3";
 	
