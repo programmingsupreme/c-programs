@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include <conio.h>
 #include <stdlib.h>
+
 int main(){
 	int a,b,c;
 	char* e,f;
@@ -13,8 +14,9 @@ int main(){
 	printf("Your score is %d \n", 100);
     printf("My score is %f \n", 150.50);
 	printf(d);
-	strcpy(d, "test 4");
+	strcpy(d, "test 4\n");
 	printf(d);
+	printf("My name is %s", MYNAME);
 
 
 	return 0;
