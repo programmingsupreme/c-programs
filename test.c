@@ -4,11 +4,10 @@
 #include  "test.h"
 int main(){
 	int a,b,c;
-	char* e,f;
+	char e[20];
 	char d[]="test 1";
+	char f[]="test 3";
 	char alpahbet[]="abcdefghijklmnopqrstuvwxyz";
-	e="test 2";
-	f="test 3";
 	
 	printf(alpahbet);
 	printf("Your score is %d \n", 100);
@@ -17,7 +16,9 @@ int main(){
 	strcpy(d, "test 4\n");
 	printf(d);
 	printf("My name is %s", MYNAME);
-
-
+	printf("What is your name?");
+	scanf("%s",&e);
+	printf("Your name is %s right?", e);;
+	scanf("%s", f);
 	return 0;
 }	
