@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <conio.h>
 #include <stdlib.h>
-
+#include  "test.h"
 int main(){
 	int a,b,c;
 	char* e,f;
