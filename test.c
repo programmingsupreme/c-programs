@@ -20,5 +20,9 @@ int main(){
 	scanf("%s",&e);
 	printf("Your name is %s right?", e);;
 	scanf("%s", f);
+	
+	
+	
+	
 	return 0;
 }	
